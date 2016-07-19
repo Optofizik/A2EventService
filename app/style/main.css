@@ -1,0 +1,40 @@
+.active, .disabled {
+    height: 50px;
+    width: 100px;
+}
+
+.active {
+    background-color: #0000AA;
+}
+
+.disabled {
+    background-color: #ff00bb;
+}
+
+.first-component, .second-component, .third-component, .fourth-component {
+    width: 500px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.first-component {
+    border:1px solid darkgrey;
+    background-color: lightgrey;
+}
+
+.second-component {
+    border:1px solid lightgoldenrodyellow;
+    background-color: yellow;
+}
+.third-component {
+   border: 1px solid #00AA00;
+    background-color: chartreuse;
+}
+
+.fourth-component {
+    border:1px solid #22746b;
+    background-color: #00cc99;
+}
+first, second, third, fourth {
+    display: inline-block;
+}
